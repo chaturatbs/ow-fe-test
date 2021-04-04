@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Guardian client-side tabs Challenge</title>
+  <meta name="description" content="Guardian Clientside Tabs Challenge">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<h1>Guardian client-side tabs challenge</h1>
+<div class="tab-container">
+    <a class="tab tab-active" id="tab-head-uk-news" href="#1" onclick="changeTab(event,'uk-news')">
+        UK News
+    </a>
+    <a class="tab" id="tab-head-football" href="#2" onclick="changeTab(event,'football')">
+        Football
+    </a>
+    <a class="tab" id="tab-head-travel" href="#3" onclick="changeTab(event,'travel')">
+        Travel
+    </a>
+
+    <div class="tab-panel panel-active" id="tab-panel-uk-news">
+    </div>
+
+    <div class="tab-panel" id="tab-panel-football">
+    </div>
+
+    <div class="tab-panel" id="tab-panel-travel">
+    </div>
+</div>
+</body>
+</html>

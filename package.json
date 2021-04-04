@@ -1,0 +1,11 @@
+{
+    "name": "clientside-tabs-challenge",
+    "version": "1.0.0",
+    "description": "Guardian Clientside Tabs Challenge",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/guardian/clientside-tabs-challenge",
+        "type": "git"
+    },
+    "license": "MIT"
+}
